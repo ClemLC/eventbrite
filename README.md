@@ -1,24 +1,7 @@
-# README
+# Eventbrite
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Bon gros soucis, même en local j'ai ce message d'erreur
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Routing Error
+uninitialized constant ApplicationController::SessionsHelper
+Rails.root: /Users/fanny/clem-eventbrite
