@@ -1,0 +1,13 @@
+<% provide(:title, 'Inscris toi !') %>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for(@user) do |f| %>
+      <%= render 'shared/error_messages' %>
+
+      <%= f.label :username, "Quel est ton nom ?" %>
+      <%= f.text_field :username, class: 'form-control' %>
+
+      <%= f.submit "Créer mon compte", class: "btn btn-primary" %>
+    <% end %>
+  </div>
+</div>
